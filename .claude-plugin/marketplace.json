@@ -21,6 +21,21 @@
         "playground",
         "lab"
       ]
+    },
+    {
+      "name": "brand-core",
+      "source": "./plugins/brand-core",
+      "description": "Prototype | Brand-Core: assemble a brand's core (visual identity, content-format map, conflicts, open decisions) from its boards, published pieces and guidelines, measured in pixels, on one interactive page.",
+      "version": "1.0.0",
+      "category": "design",
+      "keywords": [
+        "brand",
+        "identity",
+        "moodboard",
+        "pinterest",
+        "palette",
+        "guidelines"
+      ]
     }
   ]
 }

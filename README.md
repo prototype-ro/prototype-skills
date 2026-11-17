@@ -23,6 +23,7 @@ New skills show up after `/plugin marketplace update prototype`.
 | Skill | What it does | Install |
 |---|---|---|
 | [**Prototype \| Design-Lab**](plugins/design-lab) | Builds a dev-only lab page for a UI component, with sliders, switches and presets. You tune it live, paste the settings back, and the real component is built from them. | `/plugin install design-lab@prototype` |
+| [**Prototype \| Brand-Core**](plugins/brand-core) | Turns your Pinterest boards, published posts and guideline sheet into one page that says what the brand looks like: palette, type, photography and a format map, measured in pixels, plus the conflicts between sources and a short list of decisions. | `/plugin install brand-core@prototype` |
 
 ## Without the plugin system
 

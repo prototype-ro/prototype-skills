@@ -1,0 +1,66 @@
+{
+  "title": "Example Roasters Brand Core",
+  "brand": "example roasters",
+  "lang": "en",
+  "storage_key": "example-roasters-brand-core",
+  "quality": 68,
+  "default_box": [460, 740],
+  "sources": {
+    "made":  { "dir": "own/slides", "box": [540, 675], "label": "already made" },
+    "guide": { "file": "own/brand-guidelines.png", "box": [2000, 1440], "label": "guidelines" },
+    "posts": { "dir": "work/media/example-posts", "label": "posts board" },
+    "cafe":  { "dir": "work/media/example-cafe-life", "label": "cafe life" },
+    "farm":  { "dir": "work/media/example-origin-trips", "label": "origin trips" }
+  },
+  "slide_name": "p{post}-{slide}",
+  "posts": [
+    {
+      "id": "01",
+      "label": "post 01",
+      "hook": "you have been brewing it too hot.",
+      "series": "Brew Notes",
+      "tags": ["bitter cup", "guesswork"],
+      "slides": [
+        { "role": "hook", "note": "Kettle on a counter, grotesk + one serif italic phrase. Photo: cafe #16.", "alt": "Post 01 slide 1: steel kettle on a wooden counter, headline about water temperature" },
+        { "role": "problem", "note": "Why boiling water scorches a light roast. Photo: cafe #14." },
+        { "role": "pivot", "note": "Dark card over a photo: the one number that matters." },
+        { "role": "tactic", "note": "92-96 °C on a grid mat, numbered 01-03." },
+        { "role": "data", "note": "Stat trio: 94 °C · 4 min · 1:16.", "flag": "old price" },
+        { "role": "cta", "note": "Lockup large; save this post." }
+      ]
+    }
+  ],
+  "pairs": [
+    { "ref": "cafe/016", "post": "01", "slide": 1, "ref_alt": "Steel kettle on a wooden counter by a window" },
+    { "ref": "cafe/014", "post": "01", "slide": 2, "ref_alt": "Hand pouring water over a paper filter" }
+  ],
+  "palettes": [
+    { "id": "declared", "title": "Guidelines", "note": "declared · sampled from the sheet", "items": [
+      ["Crema", "#F3EEE6"], ["Roast", "#2B211C"], ["Moss", "#4F6B4A"], ["UI background", "#FBFAF7", "labeled #E5484D"]
+    ] },
+    { "id": "used", "title": "Published pieces", "note": "used · measured from 6 slides", "items": [
+      ["Near-black", "#151413", "31% of pixels"], ["Card", "#5E6F5A", "= Moss step 4"], ["Highlight", "#E3C565", "not in the sheet"]
+    ] },
+    { "id": "referenced", "title": "Boards", "note": "referenced · k-means per board", "items": [
+      ["Paper", "#EFEDE7", "posts board 24%"], ["Clay", "#9A6A48"], ["Ink", "#1F1E1B"]
+    ] }
+  ],
+  "ramps": [
+    ["Roast", ["#0E0907", "#1C1511", "#2B211C", "#6B5A4E", "#CBBFB5"]],
+    ["Moss", ["#18241A", "#2F4430", "#4F6B4A", "#7E9A78", "#C2D3BE"]]
+  ],
+  "contrast_default": ["#E3C565", "#2B211C"],
+  "decisions": [
+    { "id": "d1", "q": "Brand palette", "ctx": "Which palette do feed, stories and print follow?", "unblocks": "every template",
+      "opts": [
+        { "k": "sheet", "t": "Guidelines, fixed", "x": "Already in the published posts. Fix the sheet errors, add the highlight.", "rec": true, "dot": "#4F6B4A" },
+        { "k": "boards", "t": "Board palette", "x": "Warmer paper and clay; drops Moss.", "dot": "#EFEDE7" },
+        { "k": "mono", "t": "Monochrome", "x": "Photography is the only color.", "dot": "#1F1E1B" }
+      ] },
+    { "id": "d2", "q": "Accent", "ctx": "The one bright color for highlights, stats and the call to action.", "unblocks": "highlights, stat slides, CTA",
+      "opts": [
+        { "k": "highlight", "t": "Highlight #E3C565", "x": "Used in every published post; 9.3:1 on Roast.", "rec": true, "dot": "#E3C565" },
+        { "k": "none", "t": "None", "x": "Type weight carries emphasis.", "dot": "#CBBFB5" }
+      ] }
+  ]
+}

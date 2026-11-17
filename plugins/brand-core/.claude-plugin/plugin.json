@@ -1,0 +1,23 @@
+{
+  "name": "brand-core",
+  "version": "1.0.0",
+  "description": "Assemble a brand's core (visual identity, content-format map, conflicts and open decisions) from the material it already has: reference boards, published pieces, guideline sheets and brand docs, measured rather than guessed.",
+  "author": {
+    "name": "Rodrigo Lage",
+    "url": "https://github.com/prototype-ro"
+  },
+  "homepage": "https://github.com/prototype-ro/prototype-skills/tree/main/plugins/brand-core",
+  "repository": "https://github.com/prototype-ro/prototype-skills",
+  "license": "MIT",
+  "keywords": [
+    "brand",
+    "branding",
+    "identity",
+    "moodboard",
+    "pinterest",
+    "palette",
+    "guidelines",
+    "social-media",
+    "skill"
+  ]
+}
