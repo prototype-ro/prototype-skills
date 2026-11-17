@@ -4,7 +4,7 @@ The format map answers "which reference is for which format", channel by channel
 
 ## Channel specs (defaults, re-verify)
 
-These are the values one real run used. **Platforms change them; check the current official docs before publishing the page**, and say on the page when a value was last checked.
+These are typical values. **Platforms change them; check the current official docs before publishing the page**, and say on the page when a value was last checked.
 
 | Channel / format | Canvas | Ratio | Safe zones and notes |
 |---|---|---|---|

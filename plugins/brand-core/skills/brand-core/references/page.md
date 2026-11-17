@@ -94,7 +94,7 @@ node <skill>/scripts/overflow.mjs brand-core.html 390      # only if check_page 
 
 `check_page.mjs` checks desktop (1280, light) and phone (390, dark): console and page errors, horizontal overflow, broken or placeholder images, and the interactions (a filter chip hides other sources; the lightbox opens, advances with the arrow key and closes with Escape; a carousel advances; the contrast checker computes a ratio). It writes a screenshot per section and `alt-N.jpg` sheets with every image next to its alt text.
 
-Then **open the screenshots and the alt sheets**. Fix any alt that does not describe its picture (on a real first pass, 3 of ~80 were wrong) and anything that looks off, rebuild with `--strict`, and re-run the check once. Screenshots taken right after `scrollIntoView` under `scroll-behavior: smooth` can come out blank; the script forces `scroll-behavior: auto` for that reason.
+Then **open the screenshots and the alt sheets**. Fix any alt that does not describe its picture (on one first pass, 4 of ~90 were wrong) and anything that looks off, rebuild with `--strict`, and re-run the check once. Screenshots taken right after `scrollIntoView` under `scroll-behavior: smooth` can come out blank; the script forces `scroll-behavior: auto` for that reason.
 
 ## Hand-off
 

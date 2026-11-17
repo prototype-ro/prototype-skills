@@ -63,14 +63,14 @@ Each script documents its arguments at the top.
 
 | # | Trap | Do instead |
 |---|---|---|
-| 1 | Logged out, Pinterest stops at ~23 pins (signup wall, page height frozen) | Page the board feed API from the page context (the scraper does). `pin_count` includes dead pins: report the gap (184 of 207 in one run). |
+| 1 | Logged out, Pinterest stops at ~23 pins (signup wall, page height frozen) | Page the board feed API from the page context (the scraper does). `pin_count` includes dead pins: report the gap (131 of 146 in one run). |
 | 2 | Idea pins (`story_pin_data`) look like video | Count video only from `videos.video_list` or a story block with a video. |
 | 3 | numpy returned silent garbage above ~20k rows on macOS | Chunk conversion (≤ 8k rows) and k-means distances (≤ 2k); run the self-test (white → L* 100) first. |
-| 4 | Board order changes between scrapes | Never reuse an old manifest's numbers. Cite only from fresh sheets; check every alt against its image (3 of ~80 were wrong). |
+| 4 | Board order changes between scrapes | Never reuse an old manifest's numbers. Cite only from fresh sheets; check every alt against its image (4 of ~90 were wrong). |
 | 5 | Guideline labels lie | Sample swatch pixels (`measure.py swatch`); compare label, pixel and published use. Found: a Background labeled with the Error red, radius written "1,2px", a Shadows block titled "Border Radius", a swatch drawn off its label, the accent of every post missing, a declared serif nobody used. |
-| 6 | Treating every board as inspiration | Trace published photos to pins; one board fed 10 of 25 slide photos. |
+| 6 | Treating every board as inspiration | Trace published photos to pins; one board fed 9 of 22 slide photos. |
 | 7 | One neon pin drives the palette | Items with p90 chroma 2-3× the source median are layout pins: flag them, leave them out of the palette. |
-| 8 | Eyeballed accents and contrast | Sample by hue band + chroma/lightness, take the median pixel; report WCAG ratios of real pairs (off-white on a mid teal was 3.6:1: large text only). |
+| 8 | Eyeballed accents and contrast | Sample by hue band + chroma/lightness, take the median pixel; report WCAG ratios of real pairs (off-white on a mid green was 3.4:1: large text only). |
 | 9 | 20 MB page | Refs ~460 px, slides ~540 px, sheet ~2000 px, quality ~68; stay under ~9 MB (cap 16). |
 | 10 | Blank headless screenshots | Force `scroll-behavior: auto` before `scrollIntoView` screenshots. |
 | 11 | Squinting at PDFs | `pdfinfo` for pages and size, `pdftoppm -r 40` for quick sheets; prefer per-slide PNG exports. |

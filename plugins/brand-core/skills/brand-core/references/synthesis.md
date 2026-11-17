@@ -29,7 +29,7 @@ When the declared face and the published face differ, show both samples in the s
 
 ### Photography "worlds"
 
-Group photography into 2-3 worlds (city, nature, product, people at home...). For each: the source, measured stats as pills (L*, b* with warm share, muted share, the dominant ratio), three bullets (subjects and light; how people appear; grain, lens, finish), and four references. Measured stats beat adjectives: "L* 39, 72% warm, 62% muted" says "low-key, warm, film-like" with evidence.
+Group photography into 2-3 worlds (city, nature, product, people at home...). For each: the source, measured stats as pills (L*, b* with warm share, muted share, the dominant ratio), three bullets (subjects and light; how people appear; grain, lens, finish), and four references. Measured stats beat adjectives: "L* 44, 64% warm, 55% muted" says "low-key, warm, film-like" with evidence.
 
 ### Repeating devices
 
@@ -58,7 +58,7 @@ Each decision has:
 
 - a question and one line of context;
 - 2-4 options, each with a one-line consequence;
-- a **recommendation grounded in the evidence** on the page ("used in all four published posts; 10:1 on the dark fill"), marked `rec: true`;
+- a **recommendation grounded in the evidence** on the page ("used in all three published posts; 11:1 on the dark fill"), marked `rec: true`;
 - `unblocks`: what work starts once it is decided.
 
 Do not turn every conflict into a decision: if the evidence settles it, make it a proposal in the conflicts section. Do not ask for decisions the person cannot make yet.

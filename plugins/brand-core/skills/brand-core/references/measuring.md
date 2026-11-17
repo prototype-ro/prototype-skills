@@ -91,9 +91,9 @@ WCAG 2.x: ≥ 4.5 for body text, ≥ 3 for large text (18 pt, or 14 pt bold), �
 
 For every photo in the published pieces, look for its source on the boards: put the published slides' strips next to the board sheets and match by eye (same scene, same crop, same grade), then confirm by opening both originals. Record pairs as `board/NNN → piece P slide S`.
 
-Why it matters: in one real run, 10 of 25 slide photos came straight from one board. That board stopped being "inspiration" and became "the photo bank", which changes its weight in every conclusion (its grade *is* the published grade). Report the count ("10 of 25 slide photos are pins from one board") and show the pairs on the page.
+Why it matters: in one run, 9 of 22 slide photos came straight from one board. That board stopped being "inspiration" and became "the photo bank", which changes its weight in every conclusion (its grade *is* the published grade). Report the count ("9 of 22 slide photos are pins from one board") and show the pairs on the page.
 
 ## Before anything goes on the page
 
 - Re-make the contact sheets if anything was re-scraped, and re-check every number you will cite against them.
-- Write each alt text by looking at the image, then check it again on the alt sheets `check_page.mjs` produces. On a real first pass, 3 of ~80 alts described the wrong image.
+- Write each alt text by looking at the image, then check it again on the alt sheets `check_page.mjs` produces. On one first pass, 4 of ~90 alts described the wrong image.

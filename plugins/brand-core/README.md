@@ -16,8 +16,8 @@ It all lands on one interactive page (a claude.ai Artifact, or a standalone HTML
 ```
 You:    build the brand core from these boards and our last four carousels
 Claude: Before I start I need: the positioning paragraph, and (if you have it) the guideline sheet...
-        → scrapes 5 boards (184 of 207 pins served), imports 4 carousels + the sheet
-        → measures, traces 10 of 25 slide photos to one board, finds 7 errors in the sheet
+        → scrapes 4 boards (131 of 146 pins served), imports 3 carousels + the sheet
+        → measures, traces 9 of 22 slide photos to one board, finds 6 errors in the sheet
         → publishes the page: 7 sections, 5 decisions. Decision 01: which palette do we follow?
 ```
 
