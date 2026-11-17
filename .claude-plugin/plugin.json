@@ -1,0 +1,21 @@
+{
+  "name": "design-lab",
+  "version": "1.0.0",
+  "description": "Build a dev-only lab page to tune a UI component live with sliders, switches and presets, then paste the settings back so the real component is built from them.",
+  "author": {
+    "name": "Rodrigo Lage",
+    "url": "https://github.com/prototype-ro"
+  },
+  "homepage": "https://github.com/prototype-ro/prototype-design-lab",
+  "repository": "https://github.com/prototype-ro/prototype-design-lab",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ui",
+    "playground",
+    "lab",
+    "tailwind",
+    "react",
+    "skill"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "prototype",
+  "owner": {
+    "name": "Rodrigo Lage",
+    "url": "https://github.com/prototype-ro"
+  },
+  "plugins": [
+    {
+      "name": "design-lab",
+      "source": "./",
+      "description": "Tune a UI component live in a dev-only lab page (sliders, switches, presets), then build the real component from the pasted settings."
+    }
+  ],
+  "metadata": {
+    "description": "Prototype | Design-Lab"
+  }
+}
